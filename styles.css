@@ -1,38 +1,54 @@
-/*  your css code here. If applicable */
- body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
 
-    .Main-Container {
-      padding: 10px;
-      background-color: #f5f5f5;
-    }
+.Main-Container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    .testimonials-container h2 {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
 
-    .testimonial {
-      padding: 8px;
-      border: 1px solid #ddd;
-      background-color: #fff;
-      margin-bottom: 8px;
-      border-radius: 5px;
-    }
-  .text{
-      margin: 0;
-      font-size: 12px;
-      line-height: 1.5;
-    }
+.testimonial {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-    .author {
-      text-align: right;
-		font-size:12px;
-      font-style: italic;
-      margin-top: 5px;
-    }
+.text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.author {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+
+.additional-info {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
